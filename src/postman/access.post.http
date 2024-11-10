@@ -1,0 +1,32 @@
+@url_dev=http://localhost:3055/v1/api/
+
+### signup 
+POST {{url_dev}}shop/signup
+Content-Type: application/json
+x-api-key: db90e2aaa7a76e9290481f31b6fb3a2b6900e5937feb7a2c35e03390f43cc6d5be7d238252554a55a30d279d9729b9752c8728a1ffd0127bc684eab313914b8b
+
+{
+    "name": "nara",
+    "email": "nara", 
+    "password": "123123"
+}
+
+### login 
+POST {{url_dev}}shop/login
+Content-Type: application/json
+x-api-key: db90e2aaa7a76e9290481f31b6fb3a2b6900e5937feb7a2c35e03390f43cc6d5be7d238252554a55a30d279d9729b9752c8728a1ffd0127bc684eab313914b8b
+
+{
+    "email": "nara", 
+    "password": "123123"
+}
+
+### logout 
+POST {{url_dev}}shop/logout
+Content-Type: application/json
+x-api-key: db90e2aaa7a76e9290481f31b6fb3a2b6900e5937feb7a2c35e03390f43cc6d5be7d238252554a55a30d279d9729b9752c8728a1ffd0127bc684eab313914b8b
+
+{
+    "email": "nara", 
+    "password": "123123"
+}
